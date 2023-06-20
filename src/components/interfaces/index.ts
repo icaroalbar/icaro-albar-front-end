@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes, ReactNode } from "react";
+import { ButtonHTMLAttributes, DOMAttributes, ReactNode } from "react";
 
 interface IconProps {
     icon: ReactNode
