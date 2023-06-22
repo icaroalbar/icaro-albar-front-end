@@ -3,7 +3,7 @@ import { NavProps } from "@/components/interfaces";
 export const data: NavProps[] = [
     {
       label: "home",
-      href: "/home",
+      href: "/",
     },
     {
       label: "sobre",
@@ -13,10 +13,10 @@ export const data: NavProps[] = [
       label: "skills",
       href: "/skills",
     },
-    {
-      label: "portfolio",
-      href: "/portfolio",
-    },
+    // {
+    //   label: "portfolio",
+    //   href: "/portfolio",
+    // },
     {
       label: "contato",
       href: "/contact",

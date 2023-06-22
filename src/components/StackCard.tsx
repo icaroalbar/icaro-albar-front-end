@@ -1,7 +1,7 @@
-import { ReactElement } from "react";
+import { DragEvent, ReactElement } from "react";
 import { StackProps } from "./interfaces";
 
-const handleDragStart = (e: any) => e.preventDefault();
+const handleDragStart = (e: DragEvent<HTMLDivElement>) => e.preventDefault();
 
 export function StackCard({ stack, icon }: StackProps): ReactElement {
   return (
