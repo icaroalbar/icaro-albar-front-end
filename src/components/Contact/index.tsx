@@ -1,11 +1,14 @@
 import { ReactElement } from "react";
 import { Button } from "../Button";
+import { Input } from "../Input";
+import { data } from "./data";
+import { Textarea } from "../Textarea";
 
 export function Contact(): ReactElement {
   return (
     <div className="bg-body-secondary text-white">
       <div className="grid grid-cols-2">
-        <div className="col-span-1 p-10 flex flex-col gap-5">
+        <div className="col-span-1 p-10 flex flex-col gap-5 items-center justify-center">
           <h1 className="text-h4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </h1>
@@ -23,16 +26,12 @@ export function Contact(): ReactElement {
           </p>
         </div>
         <div className="col-span-1 p-10">
-          <form className="flex flex-col gap-5">
-            <input type="text" placeholder="Digite seu nome" />
-            <input type="text" placeholder="Digite seu e-mail" />
-            <input type="text" placeholder="Digite seu telefone de contato" />
-            <textarea
-              placeholder="Digite seu assunto"
-              cols={30}
-              rows={10}
-            ></textarea>
-            <Button title="enviar" disableTitle="Aguarde..." />
+          <form className="flex flex-col gap-3">
+            {data.map((item,index) => (
+              <Input key={index} placeholder={item.placeholder} type={item.type} />
+            ))}
+            <Textarea placeholder="Digite seu assunto" />
+            <Button title="enviar" size="full" disableTitle="Aguarde..." />
           </form>
         </div>
       </div>

@@ -11,7 +11,7 @@ export const Button = ({
   ...props
 }: ButtonProps): ReactElement => {
   const disableModel = (
-    <div className="flex gap-x-2 items-center">
+    <div className="flex gap-x-2 items-center justify-center">
       {iconsProcessing}
       {disableTitle}
     </div>
@@ -30,6 +30,7 @@ export const Button = ({
             "px-6 py-2 text-sm": size == "sm",
             "px-10 py-3 text-base": size == "md",
             "px-16 py-4 text-lg": size == "lg",
+            "block w-full py-2 text-lg": size == "full",
           }
         )}
       >
