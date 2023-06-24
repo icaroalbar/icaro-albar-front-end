@@ -3,6 +3,7 @@ import { Button } from "../Button";
 import { Input } from "../Input";
 import { data } from "./data";
 import { Textarea } from "../Textarea";
+import { items } from "../Stacks/data";
 
 export function Contact(): ReactElement {
   return (
@@ -30,8 +31,8 @@ export function Contact(): ReactElement {
             {data.map((item, index) => (
               <Input
                 key={index}
-                placeholder={item.placeholder}
                 type={item.type}
+                placeholder={item.placeholder}
               />
             ))}
             <Textarea placeholder="Digite seu assunto" />

@@ -8,27 +8,30 @@ export const theme = {
     colors: {
       body: {
         primary: "#0f172a",
-        secondary: "#15203B"
+        secondary: "#15203B",
       },
       primary: {
         10: "#2563eb",
-      }
+      },
+      secondary: {
+        10: "#eab308",
+      },
     },
     maxWidth: {
-      'mxs': '15rem',
+      mxs: "15rem",
     },
     fontSize: {
-      h1: ['3.5rem', {fontWeight: '600'}],
-      h2: ['3.2rem', {fontWeight: '600'}],
-      h3: ['2.5rem', {fontWeight: '600'}],
-      h4: ['2.0rem', {fontWeight: '700'}],
-      h6: ['1.2rem', {fontWeight: '700'}],
+      h1: ["3.5rem", { fontWeight: "600" }],
+      h2: ["3.2rem", { fontWeight: "600" }],
+      h3: ["2.5rem", { fontWeight: "600" }],
+      h4: ["2.0rem", { fontWeight: "700" }],
+      h6: ["1.2rem", { fontWeight: "700" }],
     },
     borderWidth: {
-      '6': '6px',
+      6: "6px",
     },
     blur: {
-      full: '194px',
+      full: "194px",
     },
   },
 };

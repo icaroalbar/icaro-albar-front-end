@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react";
+import { ReactElement } from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { items } from "./data";
@@ -12,7 +12,7 @@ export function Stacks(): ReactElement {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sunt
         nostrum hic ad ex quia commodi nemo repudiandae!
       </p>
-      <AliceCarousel
+      {/* <AliceCarousel
         mouseTracking
         items={items}
         infinite={true}
@@ -21,7 +21,7 @@ export function Stacks(): ReactElement {
         disableDotsControls
         animationDuration={2000}
         responsive={responsive}
-      />
+      /> */}
     </div>
   );
 }

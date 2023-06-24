@@ -11,7 +11,11 @@ export const Button = ({
   ...props
 }: ButtonProps): ReactElement => {
   const disableModel = (
-    <div className="flex gap-x-2 items-center justify-center">
+    <div
+      className={`flex gap-x-2 items-center justify-center ${
+        disabled ? "text-zinc-400" : "text-white"
+      }`}
+    >
       {iconsProcessing}
       {disableTitle}
     </div>
@@ -23,7 +27,7 @@ export const Button = ({
         {...props}
         disabled={disabled}
         className={clsx(
-          `uppercase font-medium select-none text-white rounded transition-colors border-2 shadow-md outline-none bg-transparent border-primary-10 hover:bg-blue-900 disabled:bg-blue-900 focus:shadow-blue-500/50 ${
+          `uppercase font-medium select-none rounded transition-colors border-2 shadow-md outline-none bg-transparent border-primary-10 hover:bg-blue-900 disabled:bg-blue-900 focus:shadow-blue-500/50 ${
             disabled && "bg-opacity-40 pointer-events-none"
           }`,
           {

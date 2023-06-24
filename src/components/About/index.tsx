@@ -39,7 +39,8 @@ export function About(): ReactElement {
       </div>
       <div className="col-span-1">
         <h6 className="text-h6 uppercase flex gap-2 items-center text-slate-300">
-          <span className="text-primary-10">{iconIdentification}</span> sobre
+          <span className="text-primary-10 text-4xl">{iconIdentification}</span>
+          sobre
         </h6>
         <h1 className="text-h4 text-slate-300 tracking-[0.4rem]">
           Conheça um pouco sobre mim
