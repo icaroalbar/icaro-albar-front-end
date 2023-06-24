@@ -1,5 +1,6 @@
 import { ReactElement } from "react";
 import { Button } from "../Button";
+import Image from "next/image";
 import Link from "next/link";
 import { iconIdentification } from "@/utils/icons";
 import { data } from "./data";
@@ -9,10 +10,12 @@ export function About(): ReactElement {
     <section className="grid grid-cols-2 gap-x-5 px-20 h-screen bg-body-secondary items-center">
       <div className="col-span-1 flex flex-col mx-auto gap-5">
         <div className="border-6 p-2 shadow-md border-primary-10 rounded-full max-w-mxs">
-          <img
-            src="Icaro_albar.jpg"
+          <Image
+            src="/Icaro_albar.jpg"
             alt="Imagem Icaro Albar"
             className="rounded-full"
+            width={200}
+            height={200}
           />
         </div>
         <div className="flex justify-center flex-col items-center gap-5">

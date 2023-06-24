@@ -1,37 +1,43 @@
-import { ButtonHTMLAttributes, InputHTMLAttributes, ReactNode, TextareaHTMLAttributes } from "react";
+import {
+  ButtonHTMLAttributes,
+  InputHTMLAttributes,
+  ReactNode,
+  TextareaHTMLAttributes,
+} from "react";
 
 interface IconProps {
-    icon: ReactNode
+  icon: ReactNode;
 }
 
 interface LinkProps {
-    href: string
+  href: string;
 }
 
 export interface NavProps extends LinkProps {
-    label: string
+  label: string;
 }
 
 export interface LinkSocialMediaProps extends LinkProps, IconProps {}
 
 export interface StackProps extends IconProps {
-    stack: string
+  stack: string;
 }
 
 export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
-    type: string
-    placeholder: string
+  type: string;
+  placeholder: string;
 }
 
-export interface TextareaProps extends TextareaHTMLAttributes<HTMLTextAreaElement> {
-    cols?: number
-    rows?: number
-    placeholder: string
+export interface TextareaProps
+  extends TextareaHTMLAttributes<HTMLTextAreaElement> {
+  cols?: number;
+  rows?: number;
+  placeholder: string;
 }
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-    title: string;
-    disableTitle?: string;
-    disabled?: boolean;
-    size?: "sm" | "md" | "lg" | "full";
+  title: string;
+  disableTitle?: string;
+  disabled?: boolean;
+  size?: "sm" | "md" | "lg" | "full";
 }

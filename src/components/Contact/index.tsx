@@ -27,8 +27,12 @@ export function Contact(): ReactElement {
         </div>
         <div className="col-span-1 p-10">
           <form className="flex flex-col gap-3">
-            {data.map((item,index) => (
-              <Input key={index} placeholder={item.placeholder} type={item.type} />
+            {data.map((item, index) => (
+              <Input
+                key={index}
+                placeholder={item.placeholder}
+                type={item.type}
+              />
             ))}
             <Textarea placeholder="Digite seu assunto" />
             <Button title="enviar" size="full" disableTitle="Aguarde..." />
