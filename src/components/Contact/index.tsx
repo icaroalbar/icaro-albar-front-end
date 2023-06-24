@@ -3,7 +3,6 @@ import { Button } from "../Button";
 import { Input } from "../Input";
 import { data } from "./data";
 import { Textarea } from "../Textarea";
-import { items } from "../Stacks/data";
 
 export function Contact(): ReactElement {
   return (
