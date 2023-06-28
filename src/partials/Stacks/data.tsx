@@ -12,7 +12,7 @@ import {
   iconReact,
   iconTailwindcss,
   iconTypescript,
-} from "@/utils/icons";
+} from "@/components/Icons";
 
 export const items = [
   // <StackCard icon={iconReact} stack="React JS" />,

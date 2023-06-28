@@ -1,12 +1,12 @@
 import { ReactElement } from "react";
-import { TextareaProps } from "./interfaces";
+import { iTextarea } from "../@types";
 
 export function Textarea({
   placeholder,
   cols = 30,
   rows = 7,
   ...props
-}: TextareaProps): ReactElement {
+}: iTextarea): ReactElement {
   return (
     <div className="relative">
       <textarea

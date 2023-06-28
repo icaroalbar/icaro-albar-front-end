@@ -1,6 +1,6 @@
-import { InputProps } from "@/components/interfaces";
+import { iInput } from "@/@types";
 
-export const data: InputProps[] = [
+export const data: iInput[] = [
   {
     type: "text",
     placeholder: "Digite seu nome",

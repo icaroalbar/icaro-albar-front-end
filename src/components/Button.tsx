@@ -1,7 +1,7 @@
 import { clsx } from "clsx";
 import { ReactElement } from "react";
-import { iconsProcessing } from "../utils/icons";
-import { ButtonProps } from "./interfaces";
+import { iconsProcessing } from "./Icons";
+import { iButton } from "../@types";
 
 export const Button = ({
   title,
@@ -9,7 +9,7 @@ export const Button = ({
   disableTitle = "",
   disabled = false,
   ...props
-}: ButtonProps): ReactElement => {
+}: iButton): ReactElement => {
   const disableModel = (
     <div
       className={`flex gap-x-2 items-center justify-center ${

@@ -1,7 +1,7 @@
-import { LinkSocialMediaProps } from "@/components/interfaces";
-import { iconEmail, iconGithub, iconLinkedinIn } from "@/utils/icons";
+import { iSocialMedia } from "@/@types";
+import { iconEmail, iconGithub, iconLinkedinIn } from "@/components/Icons";
 
-export const data: LinkSocialMediaProps[] = [
+export const data: iSocialMedia[] = [
   {
     icon: iconEmail,
     href: "https://g1.globo.com/",

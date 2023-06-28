@@ -1,9 +1,9 @@
 import { DragEvent, ReactElement } from "react";
-import { StackProps } from "./interfaces";
+import { iStacks } from "../@types";
 
 const handleDragStart = (e: DragEvent<HTMLDivElement>) => e.preventDefault();
 
-export function StackCard({ stack, icon }: StackProps): ReactElement {
+export function StackCard({ stack, icon }: iStacks): ReactElement {
   return (
     <div
       onDragStart={handleDragStart}
