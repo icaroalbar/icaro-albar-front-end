@@ -1,8 +1,8 @@
 import { ReactElement } from "react";
-import { Button } from "../Button";
+import { Button } from "../../components/Button";
 import Image from "next/image";
 import Link from "next/link";
-import { iconIdentification } from "@/utils/icons";
+import { iconIdentification } from "@/components/Icons";
 import { data } from "./data";
 
 export function About(): ReactElement {

@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { Button } from "./Button";
+import { Button } from "../components/Button";
 
 export function Header(): ReactElement {
   return (

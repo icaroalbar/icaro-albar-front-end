@@ -1,8 +1,8 @@
 import { ReactElement } from "react";
-import { Button } from "../Button";
-import { Input } from "../Input";
+import { Button } from "../../components/Button";
+import { Input } from "../../components/Input";
 import { data } from "./data";
-import { Textarea } from "../Textarea";
+import { Textarea } from "../../components/Textarea";
 
 export function Contact(): ReactElement {
   return (

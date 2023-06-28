@@ -1,6 +1,6 @@
-import { NavProps } from "@/components/interfaces";
+import { iNav } from "@/@types";
 
-export const data: NavProps[] = [
+export const data: iNav[] = [
   {
     label: "home",
     href: "/",
@@ -13,10 +13,10 @@ export const data: NavProps[] = [
     label: "skills",
     href: "/skills",
   },
-  // {
-  //   label: "portfolio",
-  //   href: "/portfolio",
-  // },
+  {
+    label: "portfolio",
+    href: "/portfolio",
+  },
   {
     label: "contato",
     href: "/contact",

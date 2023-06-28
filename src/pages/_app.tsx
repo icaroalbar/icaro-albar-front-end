@@ -2,8 +2,8 @@ import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 
 import NextNProgress from "nextjs-progressbar";
-import { Footer } from "@/components/Footer";
-import { Nav } from "@/components/Nav";
+import { Footer } from "@/partials/Footer";
+import { Nav } from "@/partials/Nav";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
