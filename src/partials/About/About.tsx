@@ -28,7 +28,7 @@ export function About(): ReactElement {
                 <Link
                   target="_blank"
                   href={item.href}
-                  className="text-3xl text-blue-600 duration-300 ease-in-out"
+                  className="text-3xl text-primary-10 transition-colors hover:text-blue-800 ease-in-out"
                 >
                   {item.icon}
                 </Link>

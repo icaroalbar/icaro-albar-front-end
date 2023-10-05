@@ -13,10 +13,10 @@ export const data: iNav[] = [
     label: "skills",
     href: "/skills",
   },
-  {
-    label: "portfolio",
-    href: "/portfolio",
-  },
+  // {
+  //   label: "portfolio",
+  //   href: "/portfolio",
+  // },
   {
     label: "contato",
     href: "/contact",
