@@ -3,6 +3,7 @@ import { About } from "@/partials/About/";
 import Head from "next/head";
 import { Stacks } from "@/partials/Stacks";
 import { Contact } from "@/partials/Contact";
+import { Certification } from "@/partials/Certification";
 
 export default function Home(): JSX.Element {
   return (
@@ -17,6 +18,7 @@ export default function Home(): JSX.Element {
         <Header />
         <About />
         <Stacks />
+        <Certification />
         <Contact />
       </main>
     </>

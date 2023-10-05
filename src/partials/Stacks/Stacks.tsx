@@ -4,7 +4,7 @@ import { Card } from "@/components/Card";
 
 export function Stacks(): ReactElement {
   return (
-    <div className="py-16 text-white px-28">
+    <div className="pt-16 text-white px-28">
       <div className="select-none text-center">
         <h6 className="text-h6 font-normal mb-6">Skills</h6>
         <p className="pb-10">

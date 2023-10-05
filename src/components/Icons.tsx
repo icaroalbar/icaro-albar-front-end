@@ -11,7 +11,7 @@ import {
 import { TfiEmail } from "react-icons/tfi";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { HiOutlineIdentification } from "react-icons/hi";
-import { BiLogoMongodb } from "react-icons/bi";
+import { BiLogoMongodb, BiSolidCertification } from "react-icons/bi";
 import {
   SiPostgresql,
   SiServerless,
@@ -57,3 +57,5 @@ export const iconDocker = <FaDocker />;
 export const iconJest = <SiJest />;
 export const iconLambda = <SiAwslambda />;
 export const iconTerraform = <SiTerraform />;
+
+export const iconCertification = <BiSolidCertification />;
